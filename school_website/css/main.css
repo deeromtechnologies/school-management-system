@@ -20,9 +20,22 @@
 
 }
 * {box-sizing: border-box;}
+.header{
+ background-image: url("../images/q.jpeg");
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background: linear-gradient(to right, #daa520 28%, #020449 77%);
+  color: white;
 }
 
 
@@ -145,6 +158,19 @@ body {
   background: #ccc;
 }
 
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+
+
+
+
+
 @media screen and (max-width: 600px) {
   .navbar.search-container {
     float: none;
@@ -160,4 +186,26 @@ body {
   .navbar input[type=text] {
     border: 1px solid #ccc;  
   }
+}
+
+h1{
+  
+ font-family: "Raleway";
+ color: #daa520 ;
+ font-size: 100 px;
+}
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
 }
