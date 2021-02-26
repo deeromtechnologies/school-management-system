@@ -27,6 +27,14 @@
  background-position: center;
 }
 
+.abhi{
+ background-image: url("../images/ro.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 
